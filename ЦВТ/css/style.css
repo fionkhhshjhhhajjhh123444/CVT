@@ -1,0 +1,78 @@
+.container{
+    margin: 0 auto;
+    width: 1180px;
+    height: 100vh;
+    background-color: aqua;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+.logo{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    
+}
+
+.logo__title{
+    font-weight: 500;
+    font-size: 20px;
+    color:  #333333;
+    margin-left: 11.88px;
+   
+
+}
+.heder__search{
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 320px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: #828282;
+    
+}
+.heder__search:focus{
+    outline: none;
+    font-weight: 500;
+}
+.heder__search-btn{
+    border: none;
+    background: none;    
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: #E5261E;  
+
+}
+.heder__search-btn2{
+    width: 113px;
+    height: 38px;
+    border: none;
+    font-family: 'Rubik';
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #E5261E;    
+}
+.heder__search-btn2:hover{
+    background-color: #CC221B;
+}
+.main__nav{
+    font-family: 'Rubik';
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;    
+    justify-content: space-between;
+    width: 311px;
+    margin: 0 auto;
+}
